@@ -1,17 +1,17 @@
 import java.util.Scanner;
 
-public class Program
-{
+public class Program {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int amount = scanner.nextInt();
-		int gadaduit=0;
-		//your code goes here
-		for (int i=0; i<3; i++){
-			gadaduit= amount/10;
-			amount-= gadaduit;
-		}
-		System.out.println(amount);	
+		int days = scanner.nextInt();
 		
-	}
+		//your code goes here
+
+		//declaire
+		int sec = days*86400;
+		int result = days*86400;
+		System.out.println(result);
+	}	
+
+
 }
